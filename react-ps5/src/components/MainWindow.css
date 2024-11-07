@@ -1,0 +1,14 @@
+.main-window {
+  box-sizing: border-box;
+  max-width: 100%;
+  background-color: #0034da;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-template-rows: auto;
+}
+
+.image-main {
+  width: 100vw;
+}
